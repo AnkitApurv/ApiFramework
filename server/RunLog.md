@@ -1,4 +1,4 @@
-(env-apisite) PS F:\ProjectsWorking\ApiSite> python -m app.main
+(env-apisite) {path}\server> python -m app.main
 INFO:     Will watch for changes in these directories: ['F:\\ProjectsWorking\\ApiSite']
 INFO:     Uvicorn running on https://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process [30684] using statreload
