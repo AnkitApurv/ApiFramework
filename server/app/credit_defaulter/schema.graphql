@@ -1,0 +1,45 @@
+input Behavior {
+    ID: ID
+    LIMIT_BAL: Int
+    SEX: Int
+    EDUCATION: Int
+    MARRIAGE: Int
+    AGE: Int
+    PAY_1: Int
+    PAY_2: Int
+    PAY_3: Int
+    PAY_4: Int
+    PAY_5: Int
+    PAY_6: Int
+    BILL_AMT1: Float
+    BILL_AMT2: Float
+    BILL_AMT3: Float
+    BILL_AMT4: Float
+    BILL_AMT5: Float
+    BILL_AMT6: Float
+    PAY_AMT1: Float
+    PAY_AMT2: Float
+    PAY_AMT3: Float
+    PAY_AMT4: Float
+    PAY_AMT5: Float
+    PAY_AMT6: Float
+}
+
+type Prediction {
+    ID: ID
+    default_payment_next_month: Float
+    score: Float
+    probability_0: Float
+    probability_1: Float
+    log_probability_0: Float
+    log_probability_1: Float
+}
+
+type Query {
+    getPrediction(x: Behavior): Prediction
+    getPredictions(x: [Behavior]): [Prediction]
+}
+
+schema {
+    query: Query
+}

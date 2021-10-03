@@ -1,0 +1,11 @@
+name: env-apiclient
+channels:
+  - default
+dependencies:
+  - aiohttp
+  - pandas
+  - pyarrow
+  - xlrd
+  - pip
+  - pip:
+    - aiogqlc

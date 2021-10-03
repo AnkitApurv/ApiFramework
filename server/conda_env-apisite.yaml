@@ -1,0 +1,15 @@
+name: env-apisite
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - fastapi[all]
+ - uvicorn
+ - grpcio
+ - grpcio-tools
+ - pandas
+ - joblib
+ - scikit-learn==0.22.1
+ - pip
+ - pip:
+   - ariadne

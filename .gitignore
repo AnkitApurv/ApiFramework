@@ -1,0 +1,11 @@
+# directories
+__pycache__
+.vscode
+logs
+db
+
+# name patterns
+*secrets*
+*.pem
+*.joblib
+*.parquet
