@@ -2,10 +2,9 @@
 
 This project is meant to explore achieving following objectives:
 
-1. A low approach to implementing APIs.
-2. Implementation's public interface must be easy to use and document. (GraphQL's schema docs)
-3. Fast and low on resource usage. (implemented via asyncio, request batching and GraphQL)
-4. Modular: to implement various APIs in the same server web interface. (ToDo via gRPC connecting server and API endpoints)
+1. Implementation's public interface must be easy to use and document. (GraphQL's schema docs)
+2. Fast in speed and low on resource usage. (implemented via asyncio, request batching and GraphQL)
+3. Modular, scalable: implementing various APIs in the same server web interface should be trivial. (ToDo via gRPC connecting server and API endpoints)
 
 ## Test results
 
